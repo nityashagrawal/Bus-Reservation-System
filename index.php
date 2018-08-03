@@ -42,7 +42,7 @@ India, with its well-planned network of roadways makes traveling by road an easy
 Most of the towns and cities within India are well connected to each other by state and national highways.<br />
 We offer daily scheduled bus services and bookings can be made for online bus tickets for any of the buses. <br />
 With the best in online bus ticket reservation one can book bus tickets for major routes all across India. <br />
-You can choose from AC/ Non-AC, seater and sleeper bus booking Services amongst others. <br />
+You can choose from AC/ Non-AC bus booking Services amongst others. <br />
 Most of these luxury buses are a great way to travel, especially A.C sleeper coaches as they offer great service. <br />
 You can choose for the best deals and enjoy a pleasant ride all the way through. <br />
 All A/C buses are fitted with upholstered seats that can be reclined and most offer entertainment as well.<br />
