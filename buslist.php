@@ -68,7 +68,7 @@ body
 								{$a=max($a,$value);}}}}
 		}
 		echo"<p>Your Bus Number Is : {$a}</p>";
-		if($seat_type=="Air Conditioned")
+		if($seat_type=="Sleeper")
 			{$sql="select fare('{$a}',1)";}
 		else
 			{$sql="select fare('{$a}',0)";}
