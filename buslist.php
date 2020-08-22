@@ -68,14 +68,32 @@ body
 								{$a=max($a,$value);}}}}
 		}
 		echo"<p>Your Bus Number Is : {$a}</p>";
+		$fare=0;
 		if($seat_type=="Sleeper")
-			{$sql="select fare('{$a}',1)";}
+			{if($a==1||$a==2){$fare=2675;}
+			 if($a==3||$a==4){$fare=3500;}
+			 if($a==5||$a==6){$fare=1750;}
+			 if($a==7||$a==8){$fare=2339;}
+			 if($a==9||$a==10){$fare=2684;}
+			 if($a==11||$a==12){$fare=3675;}
+			 if($a==13||$a==14){$fare=3830;}
+			 if($a==15||$a==16){$fare=3319;}
+			 if($a==17||$a==18){$fare=2947;}
+			 if($a==19||$a==20){$fare=607;}
+			}
 		else
-			{$sql="select fare('{$a}',0)";}
-		$res=mysqli_query($conn,$sql);
-		while($row=mysqli_fetch_assoc($res))
-			{ foreach($row as $key=>$value)
-			{echo"<p>Your Fare Per Seat Is : Rs.{$value}</p>";$_SESSION['fare']=$value;}}
+			{if($a==1||$a==2){$fare=2675;}
+			 if($a==3||$a==4){$fare=3500;}
+			 if($a==5||$a==6){$fare=1500;}
+			 if($a==7||$a==8){$fare=2339;}
+			 if($a==9||$a==10){$fare=2300;}
+			 if($a==11||$a==12){$fare=3150;}
+			 if($a==13||$a==14){$fare=3300;}
+			 if($a==15||$a==16){$fare=2845;}
+			 if($a==17||$a==18){$fare=2526 ;}
+			 if($a==1||$a==2){$fare=520;}
+			}
+		echo"<p>Your Fare Per Seat Is : Rs.{$fare}</p>";$_SESSION['fare']=$fare;
 		echo"<p>Number Of Passengers : {$seats} {$seat_type} Seats</p>";
 		echo"<p>Arrival Time At {$source} : 08:00 A.M.</p>";
 		echo'<a href="fare.php">Book This!</a>';
