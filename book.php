@@ -147,8 +147,8 @@ body
 	<td>Seat Type :</td>
 	<td><select name="seat_type">
 		<option>Seat Type</option>
-		<option>Air Conditioned</option>
-		<option>Non Air Conditioned</option>
+		<option>Sleeper</option>
+		<option>Seater</option>
 		</select>
 	</td>
 	</tr>
